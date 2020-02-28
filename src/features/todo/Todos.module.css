@@ -1,0 +1,41 @@
+.textInput {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid hsl(0, 0%, 72%);
+  font-size: calc(10px + 2vmin);
+}
+
+.textInput[type=text] {
+  margin-right: 14px;
+}
+
+.textInput[type=submit] {
+  background: hsl(260, 42%, 51%);
+  color: hsl(260, 88%, 93%);
+  cursor: pointer;
+  padding: 8px 30px;
+}
+
+.todo {
+  padding: 8px 16px;
+  margin-top: 12px;
+}
+
+.todoButton {
+  font-size: 12px;
+  border: 1px solid hsl(0, 0%, 72%);
+  border-radius: 2px;
+  padding: 4px 8px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.pill {
+  font-size: 12px;
+  border: 1px solid hsl(0, 0%, 72%);
+  border-radius: 50px;
+  padding: 4px 8px;
+  margin-left: 8px;
+  cursor: not-allowed;
+  background-color: hsl(260, 88%, 93%);
+}
